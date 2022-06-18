@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.File</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">java.lang.Comparable</node>
+    <node x="134.0" y="80.0">java.io.File</node>
+    <node x="192.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.File" target="java.lang.Comparable" relationship="REALIZATION">
+      <point x="-19.25" y="-15.0" />
+      <point x="153.25" y="55.0" />
+      <point x="86.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.File" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="19.25" y="-15.0" />
+      <point x="191.75" y="55.0" />
+      <point x="259.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="163.0" y="55.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

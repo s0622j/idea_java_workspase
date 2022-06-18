@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/idea_java_workspase.iml" filepath="$PROJECT_DIR$/.idea/idea_java_workspase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-classes/java-classes.iml" filepath="$PROJECT_DIR$/java-classes/java-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo-01/mybatis-demo-01.iml" filepath="$PROJECT_DIR$/mybatis-demo-01/mybatis-demo-01.iml" />
+    </modules>
+  </component>
+</project>

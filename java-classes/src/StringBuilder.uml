@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.StringBuilder</OriginalElement>
+  <nodes>
+    <node x="245.0" y="0.0">java.lang.CharSequence</node>
+    <node x="106.0" y="0.0">java.lang.Appendable</node>
+    <node x="78.10714285714289" y="80.0">java.lang.AbstractStringBuilder</node>
+    <node x="0.0" y="0.0">java.lang.Object</node>
+    <node x="281.75" y="160.0">java.lang.StringBuilder</node>
+    <node x="353.75" y="80.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.StringBuilder" target="java.io.Serializable">
+      <point x="41.0" y="-15.0" />
+      <point x="384.25" y="135.0" />
+      <point x="410.75" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.AbstractStringBuilder" target="java.lang.Object">
+      <point x="-57.00000000000003" y="-15.0" />
+      <point x="106.60714285714286" y="55.0" />
+      <point x="43.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.StringBuilder" target="java.lang.AbstractStringBuilder">
+      <point x="-41.0" y="-15.0" />
+      <point x="302.25" y="135.0" />
+      <point x="163.6071428571429" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.AbstractStringBuilder" target="java.lang.CharSequence">
+      <point x="56.99999999999997" y="-15.0" />
+      <point x="220.60714285714286" y="55.0" />
+      <point x="277.75" y="55.0" />
+      <point x="-32.75" y="15.0" />
+    </edge>
+    <edge source="java.lang.AbstractStringBuilder" target="java.lang.Appendable">
+      <point x="-2.8421709430404007E-14" y="-15.0" />
+      <point x="163.60714285714286" y="55.0" />
+      <point x="165.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.StringBuilder" target="java.lang.CharSequence">
+      <point x="0.0" y="-15.0" />
+      <point x="32.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="211.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
