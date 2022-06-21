@@ -49,22 +49,23 @@ public interface BrandMapper {
     /**
      * 添加
      */
-//    void add(Brand brand);
+    void add(Brand brand);
 
 
     /**
      * 修改
      */
-//    int update(Brand brand);
+    int update(Brand brand);
 
     /**
      * 根据id删除
      */
-//    void deleteById(int id);
+    void deleteById(int id);
 
 
     /**
      * 批量删除
      */
-//    void deleteByIds(int[] ids);
+    void deleteByIds(int[] ids);
+    //void deleteByIds(@Param("ids") int[] ids);
 }
