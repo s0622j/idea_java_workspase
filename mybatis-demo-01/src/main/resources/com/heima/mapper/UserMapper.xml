@@ -14,8 +14,21 @@
       select * from tb_user;
     </select>
     <!--用别名类名-->
-    <select id="selectById" resultType="User">
+    <!--<select id="selectById" resultType="User">
         select * from tb_user where id = #{id};
+    </select>-->
+
+
+    <select id="select" resultType="User">
+        select *
+        from tb_user
+        where
+            <!--username = #{username}
+        and password = #{password}-->
+            <!--username = #{arg0}
+        and password = #{arg1}-->
+            username = #{param1}
+        and password = #{param2}
     </select>
 
 </mapper>
