@@ -162,7 +162,7 @@ public class MyBatisTest {
     public void testAdd() throws IOException {
         //接收参数
         int status = 1;
-        String companyName = "波导手机";
+        String companyName = "波导手机20220703";
         String brandName = "波导";
         String description = "手机中的战斗机";
         int ordered = 100;

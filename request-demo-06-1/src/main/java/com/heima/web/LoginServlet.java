@@ -1,9 +1,8 @@
-/*
 package com.heima.web;
 
-import com.itheima.mapper.UserMapper;
-import com.itheima.pojo.User;
-import com.itheima.util.SqlSessionFactoryUtils;
+import com.heima.mapper.UserMapper;
+import com.heima.pojo.User;
+import com.heima.util.SqlSessionFactoryUtils;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -26,12 +25,9 @@ public class LoginServlet extends HttpServlet {
 
         //2. 调用MyBatis完成查询
         //2.1 获取SqlSessionFactory对象
-       */
-/* String resource = "mybatis-config.xml";
-        InputStream inputStream = Resources.getResourceAsStream(resource);
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);*//*
-
-
+        //String resource = "mybatis-config.xml";
+        //InputStream inputStream = Resources.getResourceAsStream(resource);
+        //SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
         //2.2 获取SqlSession对象
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -47,10 +43,10 @@ public class LoginServlet extends HttpServlet {
         response.setContentType("text/html;charset=utf-8");
         PrintWriter writer = response.getWriter();
         //3. 判断user释放为null
-        if(user != null){
+        if (user != null) {
             // 登陆成功
             writer.write("登陆成功");
-        }else {
+        } else {
             // 登陆失败
             writer.write("登陆失败");
         }
@@ -60,4 +56,4 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doGet(request, response);
     }
-}*/
+}

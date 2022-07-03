@@ -1,9 +1,8 @@
-/*
 package com.heima.web;
 
-import com.itheima.mapper.UserMapper;
-import com.itheima.pojo.User;
-import com.itheima.util.SqlSessionFactoryUtils;
+import com.heima.mapper.UserMapper;
+import com.heima.pojo.User;
+import com.heima.util.SqlSessionFactoryUtils;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -14,6 +13,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 @WebServlet("/registerServlet")
 public class RegisterServlet extends HttpServlet {
@@ -23,6 +23,10 @@ public class RegisterServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
+        //注意修改字符集编码！！
+        username = new String(username.getBytes(StandardCharsets.ISO_8859_1),StandardCharsets.UTF_8);
+        password = new String(password.getBytes(StandardCharsets.ISO_8859_1),StandardCharsets.UTF_8);
+
         //封装用户对象
         User user = new User();
         user.setUsername(username);
@@ -30,10 +34,9 @@ public class RegisterServlet extends HttpServlet {
 
         //2. 调用mapper 根据用户名查询用户对象
         //2.1 获取SqlSessionFactory对象
-       */
-/* String resource = "mybatis-config.xml";
-        InputStream inputStream = Resources.getResourceAsStream(resource);
-        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);*//*
+        //String resource = "mybatis-config.xml";
+        //InputStream inputStream = Resources.getResourceAsStream(resource);
+        //SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
         SqlSessionFactory sqlSessionFactory = SqlSessionFactoryUtils.getSqlSessionFactory();
 
@@ -46,7 +49,7 @@ public class RegisterServlet extends HttpServlet {
         User u = userMapper.selectByUsername(username);
 
         //3. 判断用户对象释放为null
-        if( u == null){
+        if (u == null) {
             // 用户名不存在，添加用户
             userMapper.add(user);
 
@@ -54,7 +57,7 @@ public class RegisterServlet extends HttpServlet {
             sqlSession.commit();
             // 释放资源
             sqlSession.close();
-        }else {
+        } else {
             // 用户名存在，给出提示信息
             response.setContentType("text/html;charset=utf-8");
             response.getWriter().write("用户名已存在");
@@ -66,4 +69,4 @@ public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         this.doGet(request, response);
     }
-}*/
+}
