@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="http-05-01" />
         <module name="java-classes" />
         <module name="mybatis-demo-01" />
+        <module name="request-demo-06-1" />
+        <module name="tomcat-demo-05-02" />
+        <module name="tomcat-demo-05-03" />
+        <module name="web-demo-05-04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="http-05-01" target="8" />
       <module name="java-classes" target="8" />
       <module name="mybatis-demo-01" target="8" />
+      <module name="request-demo-06-1" target="8" />
+      <module name="tomcat-demo-05-02" target="1.5" />
+      <module name="tomcat-demo-05-03" target="8" />
+      <module name="web-demo-05-04" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/request-demo-06-1" />
+    <file type="web" url="file://$PROJECT_DIR$/tomcat-demo-05-02" />
+    <file type="web" url="file://$PROJECT_DIR$/tomcat-demo-05-03" />
+    <file type="web" url="file://$PROJECT_DIR$/web-demo-05-04" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -8,8 +14,13 @@
       <list>
         <option value="$PROJECT_DIR$/java-classes/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-demo-01/pom.xml" />
+        <option value="$PROJECT_DIR$/http-05-01/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo-05-02/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo-05-03/pom.xml" />
+        <option value="$PROJECT_DIR$/web-demo-05-04/pom.xml" />
+        <option value="$PROJECT_DIR$/request-demo-06-1/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
