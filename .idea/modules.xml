@@ -4,15 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/css-demo-03/css-demo-03.iml" filepath="$PROJECT_DIR$/css-demo-03/css-demo-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/html-demo-02/html-demo-02.iml" filepath="$PROJECT_DIR$/html-demo-02/html-demo-02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/http-05-01/http-05-01.iml" filepath="$PROJECT_DIR$/http-05-01/http-05-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/idea_java_workspase.iml" filepath="$PROJECT_DIR$/.idea/idea_java_workspase.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-classes/java-classes.iml" filepath="$PROJECT_DIR$/java-classes/java-classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaScript-demo-04/javaScript-demo-04.iml" filepath="$PROJECT_DIR$/javaScript-demo-04/javaScript-demo-04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis-demo-01/mybatis-demo-01.iml" filepath="$PROJECT_DIR$/mybatis-demo-01/mybatis-demo-01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/request-demo-06-1/request-demo-06-1.iml" filepath="$PROJECT_DIR$/request-demo-06-1/request-demo-06-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tomcat-demo-05-02/tomcat-demo-05-02.iml" filepath="$PROJECT_DIR$/tomcat-demo-05-02/tomcat-demo-05-02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tomcat-demo-05-03/tomcat-demo-05-03.iml" filepath="$PROJECT_DIR$/tomcat-demo-05-03/tomcat-demo-05-03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-demo-05-04/web-demo-05-04.iml" filepath="$PROJECT_DIR$/web-demo-05-04/web-demo-05-04.iml" />
     </modules>
   </component>
 </project>

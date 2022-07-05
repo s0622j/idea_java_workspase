@@ -10,19 +10,14 @@
         <module name="web-demo-05-04" />
         <module name="tomcat-demo-05-02" />
         <module name="request-demo-06-1" />
+        <module name="cookie-brand-demo-10" />
         <module name="http-05-01" />
         <module name="mybatis-demo-01" />
+        <module name="cookie-demo-09" />
+        <module name="jsp-demo-07" />
+        <module name="brand-demo-08" />
         <module name="java-classes" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="http-05-01" target="1.8" />
-      <module name="java-classes" target="1.8" />
-      <module name="mybatis-demo-01" target="1.8" />
-      <module name="request-demo-06-1" target="1.8" />
-      <module name="tomcat-demo-05-02" target="1.5" />
-      <module name="tomcat-demo-05-03" target="1.8" />
-      <module name="web-demo-05-04" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
