@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ajax-brand-demo-13" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax-demo-12" />
     <file type="web" url="file://$PROJECT_DIR$/brand-demo-08" />
     <file type="web" url="file://$PROJECT_DIR$/cookie-brand-demo-10" />
     <file type="web" url="file://$PROJECT_DIR$/cookie-demo-09" />
+    <file type="web" url="file://$PROJECT_DIR$/filter-demo-11" />
     <file type="web" url="file://$PROJECT_DIR$/jsp-demo-07" />
     <file type="web" url="file://$PROJECT_DIR$/request-demo-06-1" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo-05-02" />
@@ -28,6 +31,9 @@
         <option value="$PROJECT_DIR$/brand-demo-08/pom.xml" />
         <option value="$PROJECT_DIR$/cookie-demo-09/pom.xml" />
         <option value="$PROJECT_DIR$/cookie-brand-demo-10/pom.xml" />
+        <option value="$PROJECT_DIR$/filter-demo-11/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax-demo-12/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax-brand-demo-13/pom.xml" />
       </list>
     </option>
   </component>

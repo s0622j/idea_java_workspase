@@ -7,16 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tomcat-demo-05-03" />
-        <module name="web-demo-05-04" />
         <module name="tomcat-demo-05-02" />
-        <module name="request-demo-06-1" />
         <module name="cookie-brand-demo-10" />
+        <module name="ajax-demo-12" />
         <module name="http-05-01" />
-        <module name="mybatis-demo-01" />
+        <module name="filter-demo-11" />
+        <module name="ajax-brand-demo-13" />
         <module name="cookie-demo-09" />
-        <module name="jsp-demo-07" />
         <module name="brand-demo-08" />
         <module name="java-classes" />
+        <module name="web-demo-05-04" />
+        <module name="request-demo-06-1" />
+        <module name="mybatis-demo-01" />
+        <module name="jsp-demo-07" />
       </profile>
     </annotationProcessing>
   </component>
