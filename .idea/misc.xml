@@ -12,6 +12,9 @@
     <file type="web" url="file://$PROJECT_DIR$/request-demo-06-1" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo-05-02" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo-05-03" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-brand-case-16" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-brand-demo-15" />
+    <file type="web" url="file://$PROJECT_DIR$/vue-demo-14" />
     <file type="web" url="file://$PROJECT_DIR$/web-demo-05-04" />
   </component>
   <component name="JavaScriptSettings">
@@ -34,6 +37,9 @@
         <option value="$PROJECT_DIR$/filter-demo-11/pom.xml" />
         <option value="$PROJECT_DIR$/ajax-demo-12/pom.xml" />
         <option value="$PROJECT_DIR$/ajax-brand-demo-13/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-demo-14/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-brand-demo-15/pom.xml" />
+        <option value="$PROJECT_DIR$/vue-brand-case-16/pom.xml" />
       </list>
     </option>
   </component>

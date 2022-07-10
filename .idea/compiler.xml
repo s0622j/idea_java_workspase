@@ -15,9 +15,12 @@
         <module name="ajax-brand-demo-13" />
         <module name="cookie-demo-09" />
         <module name="brand-demo-08" />
+        <module name="vue-brand-demo-15" />
+        <module name="vue-demo-14" />
         <module name="java-classes" />
         <module name="web-demo-05-04" />
         <module name="request-demo-06-1" />
+        <module name="vue-brand-case-16" />
         <module name="mybatis-demo-01" />
         <module name="jsp-demo-07" />
       </profile>
